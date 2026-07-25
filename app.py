@@ -380,7 +380,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-home_tab, timeline_tab, spot_tab = st.tabs(["⌂ Home", "◷ Timeline", "⌖ Spot Detail"])
+home_tab, timeline_tab, spot_tab = st.tabs(["⌂ Home", "◷ Timeline", "⌖ Spot Guide"])
 
 with home_tab:
     st.markdown(
@@ -483,51 +483,56 @@ with timeline_tab:
                 unsafe_allow_html=True,
             )
 
+
 with spot_tab:
-    spot_names = [spot["name"] for spot in trip["spots"]]
-    selected_name = st.selectbox(
-        "Pilih lokasi",
-        spot_names,
-        label_visibility="collapsed",
-    )
-    spot = next(item for item in trip["spots"] if item["name"] == selected_name)
+    current_day_number = 0
+    for index, day in enumerate(trip["days"], start=1):
+        day_start = datetime.fromisoformat(f"{day['date']}T00:00:00").replace(tzinfo=tz)
+        day_end = datetime.fromisoformat(f"{day['date']}T23:59:59").replace(tzinfo=tz)
+        if day_start <= now <= day_end:
+            current_day_number = index
+            break
 
-    st.markdown(f"## {spot['name']}")
-    st.markdown(f"<span class='pill'>{spot['rating']}</span>", unsafe_allow_html=True)
+    day_labels = ["All Spots", "Day 1", "Day 2", "Day 3", "Hidden Gem"]
+    default_index = current_day_number if current_day_number in (1, 2, 3) else 0
+    selected_group = st.radio("Pilih panduan", day_labels, index=default_index, horizontal=True, label_visibility="collapsed")
 
-    st.markdown("<div class='section-title'>Why I Recommend</div>", unsafe_allow_html=True)
-    st.markdown(f"<div class='note-box'>{spot['why']}</div>", unsafe_allow_html=True)
+    if selected_group == "All Spots":
+        visible_spots, guide_title = trip["spots"], "Complete Spot Guide"
+    elif selected_group == "Hidden Gem":
+        visible_spots, guide_title = [s for s in trip["spots"] if s.get("day") == 0], "Hidden Gem"
+    else:
+        selected_day = int(selected_group.split()[-1])
+        visible_spots, guide_title = [s for s in trip["spots"] if s.get("day") == selected_day], f"{selected_group} Guide"
 
-    if spot.get("chaty_note"):
-        st.markdown("<div class='section-title'>Chaty's Notes</div>", unsafe_allow_html=True)
-        st.markdown(f"<div class='note-box'>{spot['chaty_note']}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div class='section-title'>{guide_title}</div>", unsafe_allow_html=True)
 
-    left, right = st.columns(2)
+    for index, spot in enumerate(visible_spots):
+        with st.expander(f"{spot['name']} · {spot.get('category', 'Spot')}", expanded=(index == 0)):
+            st.markdown(f"<span class='pill'>{spot.get('rating','')}</span><span class='pill'>{spot.get('status','Planned')}</span>", unsafe_allow_html=True)
+            st.markdown("**Best Time**")
+            st.write(spot.get("best_time", "Fleksibel"))
+            st.markdown("**Why I Recommend**")
+            st.markdown(f"<div class='note-box'>{spot.get('why','')}</div>", unsafe_allow_html=True)
+            if spot.get("chaty_note"):
+                st.markdown("**Chaty's Notes**")
+                st.markdown(f"<div class='note-box'>{spot['chaty_note']}</div>", unsafe_allow_html=True)
 
-    with left:
-        st.markdown("**Menu Recommended**")
-        for menu_item in spot.get("menu", []):
-            st.write(f"✓ {menu_item}")
+            left, right = st.columns(2)
+            with left:
+                st.markdown("**Best Spot**")
+                for item in spot.get("best_spots", []): st.write(f"◉ {item}")
+                st.markdown("**Menu Recommended**")
+                for item in spot.get("menu", []): st.write(f"✓ {item}")
+            with right:
+                st.markdown("**Don't Miss**")
+                for item in spot.get("dont_miss", []): st.write(f"◻ {item}")
 
-    with right:
-        st.markdown("**Don't Miss**")
-        for detail in spot.get("dont_miss", []):
-            st.write(f"◻ {detail}")
-
-    st.markdown("<div class='section-title'>Attention</div>", unsafe_allow_html=True)
-    st.warning(spot.get("attention", "Nikmati perjalanan tanpa terburu-buru."))
-
-    st.markdown(
-        f"<span class='pill'>{spot.get('status', 'Planned')}</span>",
-        unsafe_allow_html=True,
-    )
-
-    if spot.get("maps_query"):
-        maps_url = (
-            "https://www.google.com/maps/search/?api=1&query="
-            + quote_plus(spot["maps_query"])
-        )
-        st.link_button("Open in Google Maps", maps_url)
+            st.markdown("**Attention**")
+            st.warning(spot.get("attention", "Nikmati tanpa terburu-buru."))
+            if spot.get("maps_query"):
+                maps_url = "https://www.google.com/maps/search/?api=1&query=" + quote_plus(spot["maps_query"])
+                st.link_button("Open in Google Maps", maps_url)
 
 st.markdown(
     "<div class='footer-note'>DTP V0.1 · Every journey deserves a story.</div>",
