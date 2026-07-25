@@ -1,0 +1,198 @@
+{
+  "title": "Magelang Healing",
+  "tagline": "Every journey deserves a story.",
+  "date_label": "26–28 Juli 2026",
+  "start_date": "2026-07-26",
+  "end_date": "2026-07-28",
+  "progress_label": "Preparation",
+  "progress_value": 0.08,
+  "distance_today": "— km",
+  "fuel_status": "FULL",
+  "days": [
+    {
+      "date": "2026-07-26",
+      "label": "Minggu, 26 Juli",
+      "short_label": "26 Jul",
+      "timeline": [
+        {
+          "time": "06:00",
+          "title": "Berangkat dari Surabaya",
+          "summary": "Mulai perjalanan menuju Magelang."
+        },
+        {
+          "time": "11:30",
+          "title": "Kupat Tahu",
+          "summary": "Berhenti makan siang sebelum melanjutkan perjalanan."
+        },
+        {
+          "time": "13:30",
+          "title": "Check-in Hotel",
+          "summary": "Istirahat singkat di Setumbu Experience Artotel."
+        },
+        {
+          "time": "16:00",
+          "title": "Enam Langit",
+          "summary": "Menikmati golden hour, sunset, dan makan sore."
+        },
+        {
+          "time": "20:00",
+          "title": "Kembali ke Hotel",
+          "summary": "Pulang sebelum jalan semakin gelap."
+        }
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "label": "Senin, 27 Juli",
+      "short_label": "27 Jul",
+      "timeline": [
+        {
+          "time": "05:00",
+          "title": "Sunrise Setumbu",
+          "summary": "Menikmati cahaya pertama di perbukitan."
+        },
+        {
+          "time": "08:00",
+          "title": "Sarapan Hotel",
+          "summary": "Sarapan santai setelah sunrise."
+        },
+        {
+          "time": "10:00",
+          "title": "Bukit Rhema",
+          "summary": "Menikmati panorama dan ruang refleksi."
+        },
+        {
+          "time": "15:30",
+          "title": "Omah Mbudur",
+          "summary": "Berhenti, bernapas, dan menikmati sore hingga selepas Magrib."
+        },
+        {
+          "time": "19:30",
+          "title": "Kembali ke Hotel",
+          "summary": "Menutup hari dengan santai."
+        }
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "label": "Selasa, 28 Juli",
+      "short_label": "28 Jul",
+      "timeline": [
+        {
+          "time": "07:30",
+          "title": "Sarapan Hotel",
+          "summary": "Sarapan tanpa terburu-buru."
+        },
+        {
+          "time": "10:30",
+          "title": "Check-out",
+          "summary": "Persiapan perjalanan pulang."
+        },
+        {
+          "time": "11:00",
+          "title": "Caping",
+          "summary": "Mampir dan menyiapkan bekal perjalanan."
+        },
+        {
+          "time": "12:30",
+          "title": "Perjalanan Pulang",
+          "summary": "Kembali ke Surabaya membawa cerita."
+        }
+      ]
+    }
+  ],
+  "spots": [
+    {
+      "name": "Enam Langit",
+      "rating": "★★★★★",
+      "why": "Jangan buru-buru memesan makanan. Duduk dahulu. Nikmati cahaya sore. Setelah golden hour baru pesan makan.",
+      "chaty_note": "Tempat ini paling indah ketika kita berhenti mengejar agenda dan mulai memperhatikan perubahan cahaya.",
+      "menu": [
+        "Sop buntut",
+        "Ayam bakar",
+        "Wedang uwuh"
+      ],
+      "dont_miss": [
+        "Viewpoint sebelah kanan",
+        "Golden hour",
+        "Sunset"
+      ],
+      "attention": "Jalan pulang agak gelap. Tidak perlu pulang terlalu malam.",
+      "status": "Planned",
+      "maps_query": "Enam Langit Borobudur"
+    },
+    {
+      "name": "Bukit Rhema",
+      "rating": "★★★★☆",
+      "why": "Bukan hanya soal bentuk bangunannya. Nikmati perjalanan naik, panorama, dan suasana reflektif di puncak.",
+      "chaty_note": "Datanglah dengan langkah pelan. Tempat ini lebih terasa ketika tidak dilalui sebagai checklist.",
+      "menu": [
+        "Camilan lokal",
+        "Minuman hangat"
+      ],
+      "dont_miss": [
+        "Pemandangan dari atas",
+        "Ruang doa",
+        "Sudut foto panorama"
+      ],
+      "attention": "Gunakan alas kaki nyaman dan perhatikan stamina saat berjalan.",
+      "status": "Planned",
+      "maps_query": "Bukit Rhema Magelang"
+    },
+    {
+      "name": "Omah Mbudur",
+      "rating": "★★★★★",
+      "why": "Tempat untuk berhenti. Bernapas. Menikmati sore tanpa merasa harus melakukan sesuatu.",
+      "chaty_note": "Saya memilih Omah Mbudur karena tempat ini bukan destinasi. Ia adalah jeda di antara perjalanan.",
+      "menu": [
+        "Kopi",
+        "Makanan rumahan",
+        "Camilan sore"
+      ],
+      "dont_miss": [
+        "Suasana menjelang senja",
+        "Ruang duduk tenang",
+        "Percakapan tanpa tergesa"
+      ],
+      "attention": "Datang sore hari dan sisakan waktu cukup agar tidak merasa diburu jadwal.",
+      "status": "Planned",
+      "maps_query": "Omah Mbudur Borobudur"
+    },
+    {
+      "name": "Omah Kopi Borobudur",
+      "rating": "Hidden Gem",
+      "why": "Disimpan sebagai pilihan fleksibel ketika ada ruang dalam perjalanan, bukan sebagai agenda wajib.",
+      "chaty_note": "Hidden gem terbaik adalah tempat yang ditemukan tanpa mengorbankan ketenangan perjalanan.",
+      "menu": [
+        "Kopi lokal",
+        "Manual brew"
+      ],
+      "dont_miss": [
+        "Suasana lokal",
+        "Obrolan dengan pemilik",
+        "Kopi khas setempat"
+      ],
+      "attention": "Kunjungi hanya bila waktu dan energi masih nyaman.",
+      "status": "Belum dikunjungi",
+      "maps_query": "Omah Kopi Borobudur"
+    },
+    {
+      "name": "Setumbu Experience Artotel",
+      "rating": "Home Base",
+      "why": "Bukan sekadar tempat tidur, tetapi pusat ritme perjalanan agar tubuh tetap nyaman.",
+      "chaty_note": "Hotel yang baik tidak mengambil perhatian dari perjalanan. Ia membantu kita pulih untuk menikmati hari berikutnya.",
+      "menu": [
+        "Sarapan hotel",
+        "Minuman hangat"
+      ],
+      "dont_miss": [
+        "Istirahat cukup",
+        "Sunrise area",
+        "Persiapan hari berikutnya"
+      ],
+      "attention": "Siapkan barang penting malam sebelumnya untuk agenda sunrise.",
+      "status": "Booked",
+      "maps_query": "Setumbu Experience Artotel"
+    }
+  ]
+}
