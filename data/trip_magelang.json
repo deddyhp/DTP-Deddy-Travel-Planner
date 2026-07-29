@@ -1,0 +1,410 @@
+{
+  "title": "Magelang Healing",
+  "tagline": "Collected Moments, Not Destinations.",
+  "date_label": "26–28 Juli 2026",
+  "start_date": "2026-07-26",
+  "end_date": "2026-07-28",
+  "status_label": "Completed Journey",
+  "mood_label": "Puass ✔",
+  "overall_rating": "★★★★★",
+  "trip_story": "Perjalanan keluarga yang dimulai sebagai healing trip, lalu berubah menjadi kumpulan momen nyata: kabut pagi, hotel yang nyaman, pelajaran tentang memilih akses jalan yang aman, dan beberapa tempat yang ternyata lebih berkesan daripada rencana awal.",
+  "hero_image": "assets/hero_magelang.png",
+  "summary": {
+    "best_food": "Bukit Rhema Resto",
+    "best_view": "Punthuk Setumbu Sunrise",
+    "biggest_lesson": "Prioritaskan jalan besar, aman, dan nyaman. Tidak semua spot worth ditempuh jika aksesnya menyulitkan.",
+    "home_base": "Setumbu Experience Artotel",
+    "visited_count": 5,
+    "cancelled_count": 1,
+    "optional_count": 2
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-07-26",
+      "label": "Minggu, 26 Juli",
+      "short_label": "26 Jul",
+      "planned_timeline": [
+        {
+          "time": "06:00",
+          "title": "Berangkat dari Surabaya",
+          "summary": "Mulai perjalanan menuju Magelang."
+        },
+        {
+          "time": "11:30",
+          "title": "Kupat Tahu",
+          "summary": "Berhenti makan siang sebelum melanjutkan perjalanan."
+        },
+        {
+          "time": "13:30",
+          "title": "Check-in Hotel",
+          "summary": "Istirahat singkat di Setumbu Experience Artotel."
+        },
+        {
+          "time": "16:00",
+          "title": "Enam Langit",
+          "summary": "Rencana menikmati golden hour dan makan sore."
+        },
+        {
+          "time": "20:00",
+          "title": "Kembali ke Hotel",
+          "summary": "Pulang sebelum jalan semakin gelap."
+        }
+      ],
+      "actual_story": "Hari pertama memberi pelajaran penting: tidak semua tujuan layak dipaksakan. Kupat Tahu terasa terlalu jauh dari area hotel, dan rencana Enam Langit akhirnya dibatalkan karena akses jalannya kecil, curam, dan berisiko. Justru hotel menjadi penyelamat ritme perjalanan.",
+      "actual_stops": [
+        {
+          "name": "Kupat Tahu Pak Pangat",
+          "status": "Visited",
+          "rating": "Cukup / future avoid",
+          "note": "Terlalu jauh dari area hotel dan membuat ritme kedatangan terasa melelahkan.",
+          "future_decision": "Tidak direkomendasikan untuk trip berikutnya."
+        },
+        {
+          "name": "Setumbu Experience Artotel",
+          "status": "Visited",
+          "rating": "Nyaman",
+          "note": "Bersih, nyaman, cocok sebagai home base. Ada momen balkon malam, kabut pagi, dan waktu santai bersama keluarga di café hotel.",
+          "future_decision": "Layak dipertahankan sebagai base trip serupa."
+        },
+        {
+          "name": "Enam Langit",
+          "status": "Cancelled",
+          "rating": "—",
+          "note": "Dibatalkan karena akses jalan sangat kecil, curam, dan terasa berisiko.",
+          "future_decision": "Hindari kecuali ada rute aman dan kondisi benar-benar mendukung."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-07-27",
+      "label": "Senin, 27 Juli",
+      "short_label": "27 Jul",
+      "planned_timeline": [
+        {
+          "time": "05:00",
+          "title": "Sunrise Setumbu",
+          "summary": "Menikmati cahaya pertama di perbukitan."
+        },
+        {
+          "time": "08:00",
+          "title": "Sarapan Hotel",
+          "summary": "Sarapan santai setelah sunrise."
+        },
+        {
+          "time": "10:00",
+          "title": "Bukit Rhema",
+          "summary": "Menikmati panorama dan ruang refleksi."
+        },
+        {
+          "time": "15:30",
+          "title": "Omah Mbudur",
+          "summary": "Berhenti, bernapas, dan menikmati sore."
+        },
+        {
+          "time": "19:30",
+          "title": "Kembali ke Hotel",
+          "summary": "Menutup hari dengan santai."
+        }
+      ],
+      "actual_story": "Hari kedua justru menghadirkan inti perjalanan. Sunrise di kawasan Setumbu memberi rasa tenang, lalu Bukit Rhema tampil lebih memuaskan dari dugaan terutama dari sisi akses dan resto. Sebaliknya, Eyoop Café tidak meninggalkan kesan baik.",
+      "actual_stops": [
+        {
+          "name": "Punthuk Setumbu",
+          "status": "Visited",
+          "rating": "Beautiful moment",
+          "note": "Kabut pagi dan cahaya awal menjadi identitas kuat perjalanan Magelang ini.",
+          "future_decision": "Sangat layak diulang."
+        },
+        {
+          "name": "Bukit Rhema",
+          "status": "Visited",
+          "rating": "★★★★☆",
+          "note": "Overall 4/5 · Photo spot 4/5 · Gallery 3/5 · Access road 5/5 · Resto taste 5/5. Welcome snack singkong goreng. Minuman yuzu mangga dan es jeruk.",
+          "future_decision": "Direkomendasikan, terutama untuk keluarga."
+        },
+        {
+          "name": "Eyoop Café",
+          "status": "Visited",
+          "rating": "★★☆☆☆",
+          "note": "Semua menu tidak direkomendasikan.",
+          "future_decision": "Tidak perlu diulang."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-07-28",
+      "label": "Selasa, 28 Juli",
+      "short_label": "28 Jul",
+      "planned_timeline": [
+        {
+          "time": "07:30",
+          "title": "Sarapan Hotel",
+          "summary": "Sarapan tanpa terburu-buru."
+        },
+        {
+          "time": "10:30",
+          "title": "Check-out",
+          "summary": "Persiapan perjalanan pulang."
+        },
+        {
+          "time": "11:00",
+          "title": "Caping",
+          "summary": "Rencana mampir sebelum pulang."
+        },
+        {
+          "time": "12:30",
+          "title": "Perjalanan Pulang",
+          "summary": "Kembali ke Surabaya membawa cerita."
+        }
+      ],
+      "actual_story": "Hari ketiga berjalan lebih pragmatis: check-out, makan Sop Empal Bu Haryoko, belanja oleh-oleh Bakpia Pathuk area Jalan Bandara, makan di Nggone Mbahe Klaten, lalu pulang dengan rasa puas.",
+      "actual_stops": [
+        {
+          "name": "Sop Empal Bu Haryoko",
+          "status": "Visited",
+          "rating": "Good stop",
+          "note": "Menjadi bagian penutup perjalanan sebelum benar-benar kembali.",
+          "future_decision": "Layak dipertimbangkan kembali."
+        },
+        {
+          "name": "Bakpia Pathuk area Jalan Bandara",
+          "status": "Visited",
+          "rating": "Oleh-oleh stop",
+          "note": "Praktis untuk oleh-oleh sebelum meninggalkan area Magelang.",
+          "future_decision": "Tetap sebagai opsi."
+        },
+        {
+          "name": "Resto Nggone Mbahe Klaten",
+          "status": "Visited",
+          "rating": "Lunch stop",
+          "note": "Menjadi transisi makan siang sebelum lanjut perjalanan pulang.",
+          "future_decision": "Bisa dipertimbangkan lagi."
+        }
+      ]
+    }
+  ],
+  "spot_guide": [
+    {
+      "name": "Kupat Tahu Pak Pangat",
+      "day": 1,
+      "category": "Food Stop",
+      "rating": "Local Lunch",
+      "best_time": "11.00–12.30",
+      "why": "Awalnya diposisikan sebagai lunch stop sebelum check-in.",
+      "chaty_note": "Pada praktiknya, stop ini mengajarkan bahwa lokasi makan juga harus mempertimbangkan kedekatan dengan home base.",
+      "best_spots": [
+        "Makan singkat lalu lanjut",
+        "Jangan terlalu lama berhenti"
+      ],
+      "menu": [
+        "Kupat tahu"
+      ],
+      "dont_miss": [
+        "Perhatikan jarak tempuh",
+        "Jangan menguras energi terlalu awal"
+      ],
+      "attention": "Untuk trip berikutnya, sebaiknya cari pilihan yang lebih dekat ke area hotel.",
+      "status": "Visited",
+      "actual_status": "Visited but not recommended",
+      "actual_note": "Terlalu jauh dan membuat kedatangan terasa melelahkan.",
+      "future_decision": "Avoid next time.",
+      "maps_query": "Kupat Tahu Pak Pangat Magelang"
+    },
+    {
+      "name": "Setumbu Experience Artotel",
+      "day": 1,
+      "category": "Home Base",
+      "rating": "Home Base",
+      "best_time": "Selama trip",
+      "why": "Pusat ritme perjalanan dan tempat pulih tenaga.",
+      "chaty_note": "Hotel ini benar-benar bekerja sebagai home base, bukan sekadar tempat tidur.",
+      "best_spots": [
+        "Balkon malam",
+        "Area café hotel",
+        "Suasana pagi berkabut"
+      ],
+      "menu": [
+        "Sarapan hotel",
+        "Minuman hangat"
+      ],
+      "dont_miss": [
+        "Momen tenang bersama keluarga",
+        "Kabut pagi"
+      ],
+      "attention": "Pertahankan sebagai opsi utama untuk basis trip Borobudur/Magelang.",
+      "status": "Visited",
+      "actual_status": "Recommended",
+      "actual_note": "Nyaman, bersih, dan cocok untuk keluarga.",
+      "future_decision": "Keep for future trips.",
+      "maps_query": "Setumbu Experience Artotel Magelang"
+    },
+    {
+      "name": "Enam Langit",
+      "day": 1,
+      "category": "Sunset & Dinner",
+      "rating": "Planned only",
+      "best_time": "16.00–18.30",
+      "why": "Rencana untuk menikmati golden hour dan makan sore.",
+      "chaty_note": "Kadang keputusan terbaik dalam perjalanan adalah membatalkan tujuan yang tidak nyaman ditempuh.",
+      "best_spots": [
+        "Golden hour",
+        "Sunset view"
+      ],
+      "menu": [
+        "Sop buntut",
+        "Ayam bakar",
+        "Wedang uwuh"
+      ],
+      "dont_miss": [
+        "Utamakan keselamatan akses",
+        "Nilai risiko jalan sebelum lanjut"
+      ],
+      "attention": "Akses jalan kecil, curam, dan berisiko.",
+      "status": "Cancelled",
+      "actual_status": "Cancelled",
+      "actual_note": "Tidak jadi dikunjungi karena akses tidak aman/nyaman.",
+      "future_decision": "Avoid unless route is proven safe.",
+      "maps_query": "Enam Langit Borobudur"
+    },
+    {
+      "name": "Punthuk Setumbu",
+      "day": 2,
+      "category": "Sunrise",
+      "rating": "★★★★★",
+      "best_time": "Sebelum matahari terbit",
+      "why": "Tempat terbaik untuk menangkap ruh pagi Magelang.",
+      "chaty_note": "Sunrise di sini terasa seperti membuka halaman baru perjalanan.",
+      "best_spots": [
+        "Horizon terbuka",
+        "Sudut yang tidak terlalu padat",
+        "Area untuk menikmati kabut"
+      ],
+      "menu": [
+        "Air hangat",
+        "Snack ringan"
+      ],
+      "dont_miss": [
+        "Blue hour",
+        "Kabut Menoreh",
+        "Siluet Borobudur"
+      ],
+      "attention": "Datang lebih awal dan siapkan jaket.",
+      "status": "Visited",
+      "actual_status": "Highly recommended",
+      "actual_note": "Menjadi salah satu momen terbaik seluruh trip.",
+      "future_decision": "Repeatable highlight.",
+      "maps_query": "Punthuk Setumbu Borobudur"
+    },
+    {
+      "name": "Bukit Rhema",
+      "day": 2,
+      "category": "View & Reflection",
+      "rating": "★★★★☆",
+      "best_time": "09.00–11.00",
+      "why": "Kombinasi view, refleksi, dan family-friendly stop.",
+      "chaty_note": "Tempat ini tampil lebih baik saat dinikmati pelan-pelan, bukan sekadar tempat foto.",
+      "best_spots": [
+        "Panorama dari atas",
+        "Spot foto",
+        "Resto area"
+      ],
+      "menu": [
+        "Singkong goreng",
+        "Yuzu mangga",
+        "Es jeruk"
+      ],
+      "dont_miss": [
+        "Akses mudah",
+        "Resto lebih baik dari dugaan"
+      ],
+      "attention": "Gallery tidak sekuat view dan restonya.",
+      "status": "Visited",
+      "actual_status": "Recommended",
+      "actual_note": "Overall 4/5 · Photo 4/5 · Gallery 3/5 · Access road 5/5 · Resto 5/5.",
+      "future_decision": "Recommended again.",
+      "maps_query": "Bukit Rhema Magelang"
+    },
+    {
+      "name": "Omah Mbudur",
+      "day": 2,
+      "category": "Slow Afternoon",
+      "rating": "Planned",
+      "best_time": "15.30 hingga sore",
+      "why": "Rencana jeda sore yang tenang.",
+      "chaty_note": "Tidak semua rencana harus berubah menjadi kunjungan aktual agar tetap bernilai sebagai referensi masa depan.",
+      "best_spots": [
+        "Area duduk tenang",
+        "Cahaya sore"
+      ],
+      "menu": [
+        "Kopi",
+        "Makanan rumahan"
+      ],
+      "dont_miss": [
+        "Simpan sebagai opsi untuk trip berikutnya"
+      ],
+      "attention": "Belum ada catatan aktual kuat pada perjalanan ini.",
+      "status": "Planned Reference",
+      "actual_status": "No actual note saved",
+      "actual_note": "Belum terekam sebagai pengalaman utama pada perjalanan ini.",
+      "future_decision": "Keep as future candidate.",
+      "maps_query": "Omah Mbudur Borobudur"
+    },
+    {
+      "name": "Caping",
+      "day": 3,
+      "category": "Final Stop",
+      "rating": "Planned",
+      "best_time": "Menjelang siang",
+      "why": "Awalnya direncanakan sebagai stop sebelum pulang.",
+      "chaty_note": "Dalam perjalanan nyata, kadang penutup berubah menyesuaikan kenyamanan dan momentum.",
+      "best_spots": [
+        "Stop santai",
+        "Bekal perjalanan"
+      ],
+      "menu": [
+        "Menu makan siang",
+        "Bekal jalan"
+      ],
+      "dont_miss": [
+        "Fleksibilitas itinerary"
+      ],
+      "attention": "Pada real journey, penutup berubah ke spot lain.",
+      "status": "Not visited",
+      "actual_status": "Replaced by actual route",
+      "actual_note": "Rute pulang aktual berubah ke Sop Empal, Bakpia Pathuk, dan Nggone Mbahe.",
+      "future_decision": "Optional for future.",
+      "maps_query": "Caping Magelang"
+    },
+    {
+      "name": "Omah Kopi Borobudur",
+      "day": 0,
+      "category": "Hidden Gem",
+      "rating": "Optional",
+      "best_time": "Saat waktu longgar",
+      "why": "Simpan sebagai cadangan menarik, bukan agenda paksa.",
+      "chaty_note": "Hidden gem terbaik adalah yang tidak memaksa ritme perjalanan.",
+      "best_spots": [
+        "Sudut tenang",
+        "Area untuk ngobrol"
+      ],
+      "menu": [
+        "Kopi lokal",
+        "Manual brew"
+      ],
+      "dont_miss": [
+        "Suasana lokal",
+        "Obrolan pemilik"
+      ],
+      "attention": "Belum dikunjungi.",
+      "status": "Belum dikunjungi",
+      "actual_status": "Optional reference",
+      "actual_note": "Tetap disimpan untuk peluang trip berikutnya.",
+      "future_decision": "Keep as hidden gem.",
+      "maps_query": "Omah Kopi Borobudur"
+    }
+  ]
+}
